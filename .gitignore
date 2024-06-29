@@ -1,9 +1,5 @@
-#ignore terraform folder with provider, terraform states, tfvars
-.terraform/*
-
-
-*.tfstate
-*.tfstate.*
-
-
-*.tfvars
+.terraform
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.tfstate.lock.info
